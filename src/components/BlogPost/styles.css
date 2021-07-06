@@ -1,0 +1,22 @@
+.content > p:first-of-type {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.7px;
+  margin-bottom: 48px;
+}
+
+.content > p:first-child:first-letter {
+  float: left;
+  font-size: 88px;
+  font-weight: normal;
+  line-height: 60px;
+  padding-top: 0;
+  padding-right: 8px;
+  padding-left: 0px;
+}
+
+.content > blockquote {
+  quotes: "\201C""\201D""\2018""\2019";
+}
